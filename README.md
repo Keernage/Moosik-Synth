@@ -18,8 +18,8 @@ A polyphonic wavetable synthesizer plugin (VST3 + Standalone) written in C++ wit
 Requires CMake 3.22+ and a C++17 compiler (Visual Studio 2022 on Windows).
 
 ```sh
-git clone --recurse-submodules <this-repo-url>
-cd moosik-synth
+git clone --recurse-submodules https://github.com/Keernage/Moosik-Synth.git
+cd Moosik-Synth
 cmake -B build
 cmake --build build --config Release
 ```
